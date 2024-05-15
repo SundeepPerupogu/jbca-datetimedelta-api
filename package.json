@@ -1,0 +1,13 @@
+{
+    "name": "datetimedelta",
+    "version": "0.0.1",
+    "engines": {
+      "node": "10.x"
+    },
+    "scripts": {
+      "start": "app.py"
+    },
+    "dependencies": {
+      "express": "^4.16.4"
+    }
+  }

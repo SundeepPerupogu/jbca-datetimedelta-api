@@ -18,8 +18,10 @@
     </form>
     <p id="result"></p>
 
-    <script>
-        document.getElementById('time-difference-form').addEventListener('submit', async function(event) {
+    <script  src="app.py">
+/*   Used when Directly exposed
+     <script>
+         document.getElementById('time-difference-form').addEventListener('submit', async function(event) {
             event.preventDefault();
 
             const future_date = document.getElementById('future_date').value;
@@ -40,7 +42,7 @@
             } else {
                 document.getElementById('result').innerText = `Error: ${result.error}`;
             }
-        });
+        });*/
     </script>
 </body>
 </html>
