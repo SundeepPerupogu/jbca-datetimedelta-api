@@ -1,6 +1,7 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from datetime import datetime
 import pytz
+import os
 
 app = Flask(__name__)
 
@@ -40,5 +41,9 @@ def time_difference():
 
     return jsonify({"time_difference": str(time_difference)})
 
+@app.route('/')
+def serve_html():
+    return send_from_directory('.', 'index.html')
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='127.0.0.1', port=5001, debug=True)

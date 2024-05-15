@@ -5,7 +5,7 @@
       "node": "10.x"
     },
     "scripts": {
-      "start": "public/app.py"
+      "start": "node app.js"
     },
     "author": "Sundeep Perupogu",
     "dependencies": {
