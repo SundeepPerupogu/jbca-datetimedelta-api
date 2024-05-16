@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
       "en-US": {
-        "name": "Custom Activity Component-DateTimeDelta",
+        "name": "Custom Activity ComponentDateTimeDelta",
         "description": "Journey Builder Custom Activity for Date time Delta API v1.1 format."
       }
     },
@@ -28,21 +28,21 @@
             "foundSignupDate": ""
           }
         ],
-        "url": "http://127.0.0.1:5000/time_difference"
+        "url": "https://jbca-datetimedelta-api.onrender.com"
       }
     },
     "configurationArguments": {
       "save": {
-        "url": "URI/for/your/activity/save"
+        "url": "https://jbca-datetimedelta-api.onrender.com"
       },
       "publish": {
-        "url": "URI/for/your/activity/publish"
+        "url": "https://jbca-datetimedelta-api.onrender.com"
       },
       "validate": {
-        "url": "URI/for/your/activity/validate"
+        "url": "https://jbca-datetimedelta-api.onrender.com"
       },
       "stop": {
-        "url": "URI/for/your/activity/stop"
+        "url": "https://jbca-datetimedelta-api.onrender.com"
       }
     },
     "wizardSteps": [
