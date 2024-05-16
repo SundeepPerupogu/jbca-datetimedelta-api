@@ -31,20 +31,6 @@
         "url": "https://jbca-datetimedelta-api.onrender.com"
       }
     },
-    "configurationArguments": {
-      "save": {
-        "url": "https://jbca-datetimedelta-api.onrender.com"
-      },
-      "publish": {
-        "url": "https://jbca-datetimedelta-api.onrender.com"
-      },
-      "validate": {
-        "url": "https://jbca-datetimedelta-api.onrender.com"
-      },
-      "stop": {
-        "url": "https://jbca-datetimedelta-api.onrender.com"
-      }
-    },
     "wizardSteps": [
       { "label": "Step 1", "key": "step1" },
       { "label": "Step 2", "key": "step2" },
