@@ -18,7 +18,7 @@
     </form>
     <p id="result"></p>
 
-    <script type="text/javascript" src="custom-activity.js"></script>
+    <script src="custom-activity.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/require.js"></script>
     <script type="text/javascript">
@@ -32,29 +32,6 @@
         require(config, dependencies);
       })();
     </script>
-     <script>
-         document.getElementById('time-difference-form').addEventListener('submit', async function(event) {
-            event.preventDefault();
-
-            const future_date = document.getElementById('future_date').value;
-            const user_timezone = document.getElementById('user_timezone').value;
-
-            const response = await fetch('/time_difference', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ future_date, user_timezone })
-            });
-
-            const result = await response.json();
-
-            if (response.ok) {
-                document.getElementById('result').innerText = `Time difference: ${result.time_difference}`;
-            } else {
-                document.getElementById('result').innerText = `Error: ${result.error}`;
-            }
-        });
-    </script>
+   
 </body>
 </html>
