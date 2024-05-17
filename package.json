@@ -6,7 +6,7 @@
     },
     "scripts": {
       	"start": "node app.js"
-	"build": "npm install moment",
+	"build": "npm install moment"
     },
     "author": "Sundeep Perupogu",
      "dependencies": {
